@@ -12,7 +12,7 @@ I was required to work a lot with software that connected to specific ports of s
 - A Windows or Linux system. Doesn't work on a Mac [yet].
 
 ### Usage
-Simply run the script, `notify_ports.pyw`. A `.pyw` file extension is used so as not to show any terminal. It's optional really. You can change it to the standard `.py` extension.
+Simply run the script, `notify_ports.pyw`, preferrably as a startup script. A `.pyw` file extension is used so as not to show any terminal. It's optional really. You can change it to the standard `.py` extension.
 
 It's advisable to set the niceness to 19 in order to minimize memory and CPU footprint (even though it takes little already)
 Ubuntu: `nice -n 19 /path/to/python3/with/plyer/installed /path/to/notify_ports.pyw`
